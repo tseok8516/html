@@ -1,0 +1,131 @@
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+body{
+    width: 1200px;
+    margin: 0;
+}
+
+.mylogo{
+    float: left;
+    width: 200px;
+    margin: 30px 80px 30px 60px;
+    padding: 0 auto;
+    display:inline;
+}
+
+.heading{
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    color: 00003f;
+    display:inline-block;
+    text-align: right;
+    margin: 85px auto;
+    margin-left: 433px;
+    padding: 0 auto;
+}
+
+.menu{    
+    width: 1160px;
+    border: 2px solid darkred;
+    background-color: darkred;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    margin: 10px 30px;
+}
+
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 0 50px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.menu a:hover{
+    color: #DF9F13;
+}
+
+.firstmessage{
+    text-align: right;
+    font-size: 40px;
+    margin: 10px auto;
+    font-family: 'Dancing Script', cursive;
+}
+
+.mainimage {
+    width: 900px;
+    padding: 10px 0;
+    margin: 10px auto;
+    opacity: 0.7;
+}
+
+main {
+    width: 900px;
+    float: right;
+    margin: 30px 30px;
+    display: inline;
+    line-height: 2;
+    text-indent: 20px;
+    overflow: break-word;
+}
+
+.intro::first-letter{
+    font-size: 30px;
+    font-weight: bold;
+    color: darkred;
+}
+
+.intro{
+    width: 900px;
+}
+
+.contactwithme {
+    float: left;
+    display:inline-block;
+    margin: 30px 0 30px 70px;
+    color: #00003f;
+}
+
+.contactwithme h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 115px;
+    color: darkred;
+    font-weight: 800;
+}
+
+.contactwithme ul li{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 30px 0;
+    color: darkred;
+}
+
+a {
+    color: darkred;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+#signature{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    text-align: right;
+}
+
+footer {
+    width: 1200px;
+    border-top: solid darkred;
+    clear: both;
+    text-align: center;
+    padding: 30px 0;
+    margin: 40px 30px 0 30px;
+    clear: both;
+}
